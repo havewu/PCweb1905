@@ -1,0 +1,73 @@
+*{margin:0;padding:0;}
+body{font:0px "Microsoft Yahei";}
+#wrap{
+	width: 1000px;
+	margin:20px auto;
+}
+#header>ul{
+	color:#ADB2B9;
+	width: 100%;
+	overflow: hidden;
+}
+li{
+	list-style:none;
+	float: left;
+	display: inline;
+		height: 40px;
+	line-height:40px;
+border:1px solid red;
+}
+#header_li1{
+	width: 300px;
+}
+
+#header_li1>a,#header_li1>a>img,#header_li1>img{
+	vertical-align: middle;
+}
+#header_li2{
+	width: 500px;
+	text-align: center;
+}
+#header_li2 form{
+	display: inline-block;
+	vertical-align: middle;
+	width: 350px;
+}
+#header_li3{
+	float: right;
+	text-align: right;
+	width: 180px;
+}
+#search_submit{
+	float: left;
+}
+#search_input{
+	float: left;
+	padding-left: 8px;
+	height: 31px;
+	width: 300px;
+	border: 2px solid #ADB2B9;
+	border-right: none;
+}
+#search_input:hover,#search_input:focus{	
+	border-right:none;
+	border: 2px solid #D00060;
+	outline:0;
+}
+#header_alink_nav{
+	display: inline-block;
+	height:35px;
+	line-height:35px;
+	font-size:0px;
+}
+#header_alink_nav>span{
+	vertical-align: middle;
+	font: bold 15px "Microsoft Yahei";
+}
+.header_alinks_user{
+	display: inline-block;
+	text-align: center;
+	font-size:6px;
+	margin-left:10px;
+	line-height:10px;
+}
