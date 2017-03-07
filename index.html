@@ -4,60 +4,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>1905</title>
 <link rel="stylesheet" type="text/css" href="css/header.css">
-<!-- <link rel="stylesheet" type="text/css" href="css/header1.css"> -->
-<!-- <link rel="stylesheet" type="text/css" href="css/header_test.css"> -->
 <link rel="stylesheet" type="text/css" href="css/alink.css">
-<style type="text/css">
-#navigation{
-	clear: both;
-	width: 100%;
-	background-color:#1F1F1F;
-	/*border: 1px solid red;*/		/*测试*/
-}
-.nav_innerdiv{
-	width: 1000px;
-	overflow: hidden;
-	height: 50px;
-	line-height: 50px;
-	margin: 0px auto;
-	background:url(img/nav_innerdiv.jpg);
-	/*background-size: 1000px 50px;*/
-	/*border: 2px solid blue;*/		/*测试*/
-}
-.nav_innerdiv a{
-	display: inline-block;
-}
-.nav_innerdiv a:hover{
-	background-color: #000;
-	border-bottom: 2px solid red;
-}
-.nav_innerdiv_left{
-	float: left;
-	width:550px;
-}
-.nav_innerdiv_left a{
-	color: #fff;
-	font-size:16px;
-	/*padding:0px 16px;*/
-	padding-left: 14px;
-	padding-right: 14px;
-}
-.nav_innerdiv_right{
-	float: right;
-	width:440px;
-	text-align: right;
-}
-.nav_innerdiv_right a{
-	font-size:14px;
-	color: #A1CDCC;
-	padding-left: 13px;
-	padding-right:13px;
-}
-#content{
-	width: 978px;
-	margin:8px auto;
-}
-</style>
+<link rel="stylesheet" type="text/css" href="css/navigation.css">
+<link rel="stylesheet" type="text/css" href="css/content.css">
 </head>
 <body>
 
@@ -74,7 +23,7 @@
 		</li>
 		<li id="header_li2" class="row_center">
 			<form action="#" method="get">
-				<input type="text" name="search" id="search_input" />
+				<input type="text" name="search" id="search_input" placeholder="输入电影名搜索" />
 				<input type="Image" name="submit" align="middle" src="img/icon_search.png" id="search_submit" />
 			</form>
 		</li>
@@ -98,7 +47,7 @@
 	</div>
 	<div class="nav_innerdiv_right">
 		<a href="#">主题片场</a>
-		<a href="#">艺术影院</a>
+		<a class="nav_current" href="#">艺术影院</a>
 		<a href="#">网络电影</a>
 		<a href="#">分类检索</a>
 		<a href="#">排行榜</a>
@@ -108,7 +57,7 @@
 <div id="content">
   <div class="carousel-figure">
 	<div style="width:700px;height:350px"><img src="img/carousel.jpg" /></div>
-	<div></div>
+	<div></div>  
   </div>
 </div>
 <div id="footer">
